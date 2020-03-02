@@ -28,6 +28,7 @@ public class Elevador implements IElevadorService {
 
     public JSONArray lendoDados() {
         try {
+            // Inserir o endereço/caminho aqui. Deve ser o caminho completo de onde o arquivo input.json está.
             FileReader fileReader = new FileReader("C:\\Users\\emerson\\Desktop\\testeApisulWebSpring" +
                     "\\src\\main\\java\\com\\teste\\apisul\\Implementation\\service\\input.json");
             BufferedReader bufferedReader = new BufferedReader(fileReader);
